@@ -27,3 +27,41 @@
 # test 1801 causes problems on Mac OS X and github
 # https://github.com/curl/curl/issues/380
 1801
+#
+#
+# Tests that are disabled here for Hyper are SUPPOSED to work but
+# still need adjustments in tests or code. Tests that cannot be
+# fixed for hyper should be adjusted for it in the test file.
+%if hyper
+154
+155
+158
+206
+207
+209
+213
+217
+246
+262
+265
+266
+281
+287
+319
+326
+357
+358
+359
+513
+547
+551
+552
+555
+559
+565
+579
+580
+581
+587
+1008
+%endif
